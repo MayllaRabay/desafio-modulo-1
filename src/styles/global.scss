@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --white: #FFFFFF;
+
+  --gray-50: #EEEEEE;
+  --gray-100: #E5E5E5;
+  --gray-200: #929292;
+  --gray-500: #545454;
+  --gray-800:#222222;
+
+  --black: #000000;
+
+  --pink-500: #FE0078;
+}
+
+body {
+  background-color: var(--gray-100);
+}
