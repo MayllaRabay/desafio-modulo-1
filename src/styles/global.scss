@@ -42,3 +42,13 @@ input {
   background: var(--white);
   border: 1px solid var(--gray-50);
 }
+
+a {
+  color: var(--gray-500);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--pink-500);
+    text-decoration: underline;
+  }
+}
