@@ -52,3 +52,9 @@ a {
     text-decoration: underline;
   }
 }
+
+a:hover,
+button:hover,
+input:hover {
+  cursor: url('/cursor.cur'), auto;
+}
