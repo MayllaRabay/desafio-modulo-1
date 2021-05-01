@@ -39,18 +39,18 @@ export default function Contact() {
         <div className={styles.form__Name__Email}>
           <label>
             <span>Nome</span>
-            <input id="name"></input>
+            <input id="name" name="name"></input>
           </label>
 
           <label>
             <span>E-mail</span>
-            <input id="name" type="email"></input>
+            <input id="email" name="email" type="email"></input>
           </label>
         </div>
 
         <label>
           <span>Assunto</span>
-          <input id="name"></input>
+          <input id="subject" name="subject"></input>
         </label>
 
         <label>
