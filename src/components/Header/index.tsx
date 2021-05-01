@@ -2,7 +2,7 @@ import styles from './styles.module.scss';
 
 export function Header() {
   return (
-    <header className={styles.headerContainer}>
+    <header className={styles.header__Container}>
       <img src="/logo.svg" alt="Logoipsum" />
 
       <nav className="links">

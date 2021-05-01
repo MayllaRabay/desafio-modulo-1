@@ -10,8 +10,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Header />
-      <Component {...pageProps} />
-      <main className={styles.mainContainer}>
+      <main className={styles.main__Container}>
+        <Component {...pageProps} />
         <Menu />
       </main>
       <Footer />

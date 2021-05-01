@@ -2,7 +2,7 @@ import styles from "./styles.module.scss";
 
 export function Menu() {
   return (
-    <div className={styles.menuContainer}>
+    <div className={styles.menu__Container}>
       <input placeholder="Pesquise aqui..."></input>
 
       <h3>Categorias</h3>
@@ -45,10 +45,10 @@ export function Menu() {
         </ul>
       
       <h3>Publicidade</h3>
-      <div className={styles.adContainer}>
-        <div className={styles.adBox}>340x240</div>
-        <div className={styles.adBox}>340x240</div>
-        <div className={styles.adBox}>340x240</div>
+      <div className={styles.ad__Container}>
+        <div className={styles.ad__Box}>340 x 240</div>
+        <div className={styles.ad__Box}>340 x 240</div>
+        <div className={styles.ad__Box}>340 x 240</div>
       </div>
     </div>
   );
