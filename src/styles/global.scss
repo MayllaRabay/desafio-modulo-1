@@ -41,6 +41,10 @@ span {
 input {
   background: var(--white);
   border: 1px solid var(--gray-50);
+
+  &:hover {
+    border: 1px solid var(--pink-500);
+  }
 }
 
 a {
@@ -55,6 +59,7 @@ a {
 
 a:hover,
 button:hover,
-input:hover {
+input:hover,
+textarea:hover {
   cursor: url('/cursor.cur'), auto;
 }
