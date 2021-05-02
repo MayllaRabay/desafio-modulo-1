@@ -14,21 +14,21 @@ export default function Contact() {
 
       <div>
         <div className={styles.info}>
-          <img src="localizacao.png" alt="" /><strong>Endereço</strong>
+          <img src="/localizacao.png" alt="" /><strong>Endereço</strong>
         </div>
         <p>Av. Tancredo Neves, 2227, Ed. Salvador Prime Caminho das Árvores, Salvador • Bahia</p>
       </div>
 
       <div>
         <div className={styles.info}>
-          <img src="telefone.png" alt="" /><strong>Telefone</strong>
+          <img src="/telefone.png" alt="" /><strong>Telefone</strong>
         </div>
         <p>(71) 9 9999-9999 | (11) 1 1111-1111</p>
       </div>
 
       <div>
         <div className={styles.info}>
-          <img src="headset.png" alt="" /><strong>Suporte</strong>
+          <img src="/headset.png" alt="" /><strong>Suporte</strong>
         </div>
         <p>suporte@cubos.academy</p>
       </div>
@@ -55,7 +55,7 @@ export default function Contact() {
 
         <label>
           <span>Comentário</span>
-          <textarea rows={10}></textarea>
+          <textarea id="comentary" name="comentary" rows={10}></textarea>
         </label>
 
         <button>Enviar</button>

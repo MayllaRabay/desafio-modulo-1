@@ -7,7 +7,7 @@ export function Header() {
 
       <nav className="links">
         <a href="/">Início</a>
-        <a href="#">Sobre</a>
+        <a href="/under-construction">Sobre</a>
         <a href="/contact">Contato</a>
       </nav>
     </header>
