@@ -23,7 +23,7 @@
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/MayllaRabay/desafio-modulo-1.git
+$ git clone https://github.com/MayllaRabay/desafio-modulo-1
 
 # Acesse a pasta do projeto no seu terminal/cmd
 $ cd desafio-modulo-1
